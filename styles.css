@@ -156,3 +156,44 @@ CONTAINER3#######################
     align-self: flex-end;
     font-weight: bold;
 }
+
+/*
+CONTAINER4#######################
+ */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    width: 700px;
+    height: 100px;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.btn2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.blue-left {
+    color: white;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
