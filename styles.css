@@ -10,14 +10,25 @@ body {
     flex-direction: column;
 }
 
+.header,
+.footer{
+    padding: 20px 50px;
+    background-color: #1F2937;
+}
+
+.container1,
+.container2,
+.container3,
+.container4{
+    padding: 75px 50px;
+}
+
 /*
 HEADER############################
  */
 .header {
-    background-color: #1F2937;
     color: white;
     padding: 20px 50px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +36,7 @@ HEADER############################
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -34,5 +46,50 @@ HEADER############################
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/*
+CONTAINER! ##############
+ */
+
+.container1 {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 2em;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.btn1 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    padding: 8px 25px;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+
+.image-placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+}
+
+.container1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: space-between;
 }
