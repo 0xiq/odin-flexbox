@@ -133,3 +133,26 @@ h2 {
     font-size: 36px;
     color: #1F2937;
 }
+
+/*
+CONTAINER3#######################
+ */
+
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
