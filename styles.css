@@ -93,3 +93,43 @@ h1 {
     gap: 0.5em;
     justify-content: space-between;
 }
+
+/*
+CONTAINER2######################
+ */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.square-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
